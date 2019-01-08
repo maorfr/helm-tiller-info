@@ -33,6 +33,6 @@ else
     wget -q "${url}" -O "releases/${version}.tgz"
 fi
 tar xzf "releases/${version}.tgz" -C "releases/${version}"
-mv "releases/${version}/tillerinfo" "bin/tillerinfo" || \
-    mv "releases/${version}/tillerinfo.exe" "bin/tillerinfo"
+mv "releases/${version}/tiller-info" "bin/tiller-info" || \
+    mv "releases/${version}/tiller-info.exe" "bin/tiller-info"
 rm -rf releases

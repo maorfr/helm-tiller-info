@@ -2,7 +2,7 @@ name: "tiller-info"
 version: "0.1.0"
 usage: "print information about Tiller"
 description: "print information about Tiller"
-command: "$HELM_PLUGIN_DIR/bin/tillerinfo"
+command: "$HELM_PLUGIN_DIR/bin/tiller-info"
 hooks:
   install: "$HELM_PLUGIN_DIR/install-binary.sh"
   update: "$HELM_PLUGIN_DIR/install-binary.sh"
