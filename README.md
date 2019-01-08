@@ -10,12 +10,19 @@ Print information about Tiller
 $ helm tiller-info [flags]
 ```
 
-### Flags:
+### Flags
 
 ```
       --tiller-namespace string   namespace of Tiller (default "kube-system")
 ```
 
+### Example
+
+```
+$ helm tiller-info
+Tiller storage: secrets
+Tiller default deployment namespace: default
+```
 
 ## Install
 
