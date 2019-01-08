@@ -13,7 +13,6 @@ $ helm tiller-info [flags]
 ### Flags:
 
 ```
-  -l, --label string              label to select tiller resources by (default "NAME=TILLER")
       --tiller-namespace string   namespace of Tiller (default "kube-system")
 ```
 
@@ -24,7 +23,7 @@ $ helm tiller-info [flags]
 $ helm plugin install https://github.com/maorfr/helm-tiller-info
 ```
 
-The above will fetch the latest binary release of `helm tiller info` and install it.
+The above will fetch the latest binary release of `helm tiller-info` and install it.
 
 ### Developer (From Source) Install
 
